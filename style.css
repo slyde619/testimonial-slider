@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(236, 235, 235);
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.4;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+section > *{
+    margin-block-end: 1.4em;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.84rem;
+    color: rgb(65, 163, 167);
+}
+
+.card{
+    background-color: hsl(240, 57%, 97%);
+    padding: 1em 1.4em;
+    border-radius: 41px;
+    box-shadow: 0 5px 12px -3px rgba(10, 10, 10, .34);
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+#author__img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: fill;
+    margin-block-end: 1em;
+}
+
+#author{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#job{
+    margin-block: .85em;
+    color: rgb(65, 163, 167);
+    font-weight: 600;
+}
+
+#info{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.btn{
+    background: transparent;
+    padding: .5em 1.2em;
+    border: none;
+    font-size: 1.75rem;
+    cursor: pointer;
+    color: rgb(77, 177, 177);
+    transition: all .3s ease-in-out;
+}
+
+.btn-surprise{
+    background: rgb(65, 163, 167);
+    color: aliceblue;
+    border-radius: 41px;
+    font-size: 1.25rem;
+}
