@@ -4,8 +4,7 @@
 
 ### Description
 This project implements a review card that displays individual reviews from a set of dummy data. 
-Users can navigate through different reviews using "previous" and "next" buttons, 
-allowing them to read various customer feedback easily. Lastly, a random surprise button to random the data.
+Users can navigate through different reviews using "previous" and "next" buttons, allowing them to read various customer feedback easily. Lastly, a random surprise button to random the data.
 
 ### Features
 
